@@ -1,26 +1,27 @@
+/* Universal selector */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* Type selector for body element */
 body {
     background-color: #d9dcd6;
 }
-
+/* Type selector for header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* type selector for h1 element within header */
 header h1 {
     display: inline-block;
     font-size: 48px;
     color: #d9dcd6;
 }
-
+/* type selector for nav element within header */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -28,45 +29,46 @@ header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* type selector for li element within header > nav > ul */
 header nav ul li{
     display: inline-block;
     margin-left: 25px;
     list-style-type: none;
 }
-
+/* type selector for anchor elements*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* type selector for paragraph elements*/
 p {
     font-size: 16px;
 }
-
-figure img {
+/* type selector for img elements within figure */
+figure img{
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-size: cover;
     background-position: center;
 }
-
+/* class selector "left" for imgs*/
 article .left {
     float: left;
     margin-right: 25px;
 }
-
+/* class selector "right" for imgs*/
 article .right {
     float: right;
     margin-left: 25px;
 }
-
+/* section element selector */
 section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+/* type selector for article with section element */
 section article {
     margin-bottom: 20px;
     padding: 50px;
@@ -76,16 +78,16 @@ section article {
     color: #ffffff;
 
 }
-
+/* type selector for img within article and section element */
 section article img {
     max-height: 200px;
 }
-
+/* type selector for h2 within article and section element */
 section article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* aside selector for side content */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -98,25 +100,25 @@ aside {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* article selector within aside section */
 aside article {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* img selector within aside section */
 aside img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* footer selector */
 footer{
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/* footers h2 element selector */
 footer h2 {
     font-size: 20px;
 }
